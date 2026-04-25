@@ -87,7 +87,9 @@ pip install "torch>=2.1.0,<2.6.0" "torchaudio>=2.1.0,<2.6.0" --index-url https:/
 pip install -r requirements.txt
 
 # 5. Klasör yapısını oluştur
-mkdir -p data/reference_voices data/test_audio data/training_data models
+
+mkdir -p data/reference_voices data/test_audio data/training_data models   # Linux / macOS
+# mkdir data\reference_voices data\test_audio data\training_data models    # Windows
 ```
 
 **Uygulamayı başlat**
